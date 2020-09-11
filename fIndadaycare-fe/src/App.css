@@ -1,0 +1,248 @@
+
+* { box-sizing: border-box;
+}
+
+body {
+  display: grid;
+}
+
+.container {
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.NavBar {
+  display: grid;
+  text-align: left;
+  font-size: 25px;
+  color: #002F2F;
+  letter-spacing: 0.2em;
+}
+
+nav > div {
+  font-size: 1.6em;
+  min-height: 30px;
+  padding: 1rem 4rem;
+}
+
+hr {
+  width: 90vw;
+  height: 10px;
+  background-color: #CFCFCF;
+  border: none;
+  margin: 0;
+}
+
+@media (min-width: 30rem) {
+    nav {
+    grid-template-rows: none;
+    grid-template-columns: 1fr auto auto;
+    text-align: right;
+    justify-items: start;
+    border-bottom: 2px solid #CFCFCF;
+  }
+  hr {
+    display: none;
+  }
+}
+
+.search {
+  min-width: 1010px;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("./images/daycare-image.jpg");
+  height: 945px;
+  background-color: #333;
+  background-size: cover;
+  /* background-position: 50%; */
+  display: grid;
+  /* display: flex; */
+  background-position: center;
+  justify-content: center;
+  align-items: center; 
+}
+
+.search__form {
+  margin: auto;
+  text-align: center;
+  color: rgb(247, 242, 233);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.search_form h1 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.search__field {
+  height: 45px;
+  width: 390px;
+  padding: 25px;
+  border-radius: 30px;
+  outline: none;
+  text-align: center;
+}
+
+.search__btn {
+  height: 44px;
+  width: 150px;
+  margin: 28px;
+  background: rgb(9, 194, 198);
+  border: none;
+  color: #000;
+  border-radius: 30px;
+}
+
+.search__btn:hover {
+  background: rgb(3, 163, 165); 
+  cursor: pointer;
+}
+
+.daycare-rendering {
+  padding: 5px;
+  display: grid;
+}
+
+.daycare-card {
+  background-color: rgb(243, 243, 243);
+  width: 80%;
+  margin: auto;
+  border: 15px solid  white;
+  /* box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  display: grid;
+  grid-gap: 25px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.daycare__notes {
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+  height: 245px;
+}
+
+.daycare__schedule {
+  text-align: left;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.daycare__img {
+  width: 80%;
+  margin: auto;
+  box-sizing: content-box; 
+}
+
+.daycare__name {
+  padding: 2%;
+  margin: auto;
+  color: rgb(70, 67, 67);
+}
+
+.daycare__rating {
+  padding-left: 130px;
+  padding-bottom: 2%;
+  margin: 0;
+  color: rgb(79, 74, 74);
+}
+
+.daycare__button {
+  width: 140px;
+  height: 35px;
+}
+.daycare__address {
+  text-align: left;
+  padding-left: 126px;
+  font-size: 15px;
+  margin-top: 1px;
+  color: rgb(79, 74, 74);
+}
+
+.daycare__review {
+  width: 90%;
+  text-align: left;
+  padding-left: 130px;
+  color: rgb(118, 115, 115);
+} 
+
+.daycare__link {
+  padding-left: 126px;
+  color: rgb(42, 131, 199);
+}
+
+.daycare__link:hover {
+  color: rgb(6, 101, 174);
+}
+
+/* Login Form Style */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login__page {
+  width: 355px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.register__form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 95px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 2 2 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.register__input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.register__button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.register__button:hover,.register__button:active,.register__button:focus {
+  background: #43A047;
+}
+
+.register__message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.register__message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.form .login__form {
+  display: none;
+}
