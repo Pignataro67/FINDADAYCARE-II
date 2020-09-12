@@ -75,22 +75,22 @@ hr {
   color: #fff;
   margin-bottom: 50px;
   font-size: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
 }
 
 .search__field {
-  height: 35px;
+  height: 40px;
   width: 390px;
-  padding: 30px;
-  border-radius: 25px;
+  padding: 25px;
+  border-radius: 30px;
   outline: none;
   text-align: center;
 }
 
 .search__btn {
-  height: 44px;
-  width: 150px;
-  margin: 28px;
+  height: 35px;
+  width: 125px;
+  margin: 30px;
   background: rgb(9, 194, 198);
   border: none;
   color: #000;
@@ -103,7 +103,7 @@ hr {
 }
 
 .daycare-rendering {
-  padding: 5px;
+  padding: 10px;
   display: grid;
 }
 
@@ -111,13 +111,13 @@ hr {
   background-color: rgb(243, 243, 243);
   width: 80%;
   margin: auto;
-  border: 15px solid  white;
+  border: 20px solid  white;
   /* box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   display: grid;
   grid-gap: 25px;
   padding-top: 2%;
   padding-bottom: 2%;
-  padding-right: 15px;
+  padding-right: 20px;
   padding-left: 15px;
 }
 
