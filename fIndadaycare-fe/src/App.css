@@ -160,7 +160,7 @@ hr {
 .daycare__address {
   text-align: left;
   padding-left: 126px;
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 1px;
   color: rgb(79, 74, 74);
 }
@@ -168,12 +168,12 @@ hr {
 .daycare__review {
   width: 90%;
   text-align: left;
-  padding-left: 130px;
+  padding-left: 125px;
   color: rgb(118, 115, 115);
 } 
 
 .daycare__link {
-  padding-left: 126px;
+  padding-left: 118px;
   color: rgb(42, 131, 199);
 }
 
@@ -196,7 +196,7 @@ hr {
   background: #FFFFFF;
   max-width: 360px;
   margin: 0 auto 95px;
-  padding: 45px;
+  padding: 35px;
   text-align: center;
   box-shadow: 2 2 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
@@ -210,7 +210,7 @@ hr {
   margin: 0 0 15px;
   padding: 15px;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .register__button {
@@ -220,7 +220,7 @@ hr {
   background: #4CAF50;
   width: 100%;
   border: 0;
-  padding: 15px;
+  padding: 20px;
   color: #FFFFFF;
   font-size: 14px;
   -webkit-transition: all 0.3 ease;
@@ -233,9 +233,9 @@ hr {
 }
 
 .register__message {
-  margin: 15px 0 0;
+  margin: 20px 0 0;
   color: #b3b3b3;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .register__message a {
