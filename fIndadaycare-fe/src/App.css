@@ -17,20 +17,20 @@ body {
 .NavBar {
   display: grid;
   text-align: left;
-  font-size: 25px;
+  font-size: 30px;
   color: #002F2F;
   letter-spacing: 0.2em;
 }
 
 nav > div {
   font-size: 1.6em;
-  min-height: 30px;
+  min-height: 25px;
   padding: 1rem 4rem;
 }
 
 hr {
   width: 90vw;
-  height: 25px;
+  height: 30px;
   background-color: #CFCFCF;
   border: none;
   margin: 0;
@@ -50,7 +50,7 @@ hr {
 }
 
 .search {
-  min-width: 1035px;
+  min-width: 1040px;
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("./images/daycare-image.jpg");
   height: 875px;
   background-color: #333;
@@ -67,22 +67,22 @@ hr {
   margin: auto;
   text-align: center;
   color: rgb(247, 242, 233);
-  font-size: 27px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .search_form h1 {
   color: #fff;
-  margin-bottom: 50px;
-  font-size: 20px;
-  letter-spacing: 5px;
+  margin-bottom: 45px;
+  font-size: 15px;
+  letter-spacing: 10px;
 }
 
 .search__field {
   height: 40px;
   width: 390px;
   padding: 30px;
-  border-radius: 30px;
+  border-radius: 25px;
   outline: none;
   text-align: center;
 }
